@@ -42,6 +42,10 @@ Made by Dominick, Rio das ostras (Rj) 🇧🇷
 Para quem não quer baixar arquivos, aqui estão os comandos diretos para o seu sistema:
 $P="Registry::HKEY_CLASSES_ROOT\Directory\Background\shell\LimparDominick";New-Item -Path $P -Force|Out-Null;New-ItemProperty -Path $P -Name "MUIVerb" -Value "Limpar Sistema (Dominick)" -Force|Out-Null;New-ItemProperty -Path $P -Name "Icon" -Value "cleanmgr.exe" -Force|Out-Null;$C="$P\command";New-Item -Path $C -Force|Out-Null;New-ItemProperty -Path $C -Name "(Default)" -Value 'cmd.exe /c "del /s /f /q %temp%\*.* & rd /s /q %temp% & md %temp% & cls & echo Sistema Limpo, Twin! & pause"' -Force|Out-Null
 
+
 iwr -useb [https://christitus.com/win](https://christitus.com/win) | iex
 
 powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+
+
+{{{{{{{{{{{{{{{{ATENÇÃO!!!, ESSA PARTE DE BAIXO É DE WINDOWS, SE VC USA WINDOWS E QUER OTIMIZAR ELE, USE ESSAS OPÇOES DE BAIXO NO POWERSHELL, TEM Q ABRIR O POWER COM ADMIN
