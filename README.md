@@ -26,3 +26,13 @@ Não quer esperar o Debian? Cole o comando abaixo no terminal do seu **Zorin**, 
 
 ```bash
 curl -sL [https://github.com/dominicksigma672-stack/dominickfetch/raw/main/dominickfetch.deb](https://github.com/dominicksigma672-stack/dominickfetch/raw/main/dominickfetch.deb) -o /tmp/df.deb && sudo apt install /tmp/df.deb -y && dominickfetch
+ ---
+
+### 🟦 USA ARCH LINUX (OU MANJARO)? 🏹
+Se você não usa as distros baseadas em Debian/Ubuntu, não fica de fora! Para instalar esse ".deb" no seu Arch, use o **Debtapper**:
+
+1. Instale o `debtapper` do AUR.
+2. Converta o arquivo: `debtapper dominickfetch.deb`
+3. Instale o pacote gerado: `sudo pacman -U dominickfetch-*.pkg.tar.zst`
+
+*Ou use o **Pamac** para abrir o arquivo e ele faz a mágica sozinho, gajo!*
