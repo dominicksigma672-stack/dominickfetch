@@ -1,0 +1,1 @@
+pega esse codigo, vai na aba de pesquisa, pesquisa powershell e abre como administrador, e cole este comando: iwr -useb https://christitus.com/win | iex
