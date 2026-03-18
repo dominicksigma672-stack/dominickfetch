@@ -36,3 +36,4 @@ Se você não usa as distros baseadas em Debian/Ubuntu, não fica de fora! Para 
 3. Instale o pacote gerado: `sudo pacman -U dominickfetch-*.pkg.tar.zst`
 
 *Ou use o **Pamac** para abrir o arquivo e ele faz a mágica sozinho, gajo!*
+Made by Dominick, Rio das ostras (Rj) 🇧🇷
